@@ -109,7 +109,7 @@ const Linktree: React.FC = () => {
 
         {/* WHATSAPP FLOATING BUTTON */}
         <a 
-          href="https://wa.me/5511999999999" 
+          href="https://wa.me/5511986440117" 
           target="_blank" 
           rel="noopener noreferrer"
           className="fixed bottom-6 right-6 bg-black w-14 h-14 rounded-full flex items-center justify-center shadow-lg border border-vf-orange/30 transition-all hover:scale-105 hover:border-vf-orange z-20"
