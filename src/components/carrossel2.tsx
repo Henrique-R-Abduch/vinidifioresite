@@ -8,16 +8,16 @@ const ResultsSection: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const transformations = [
-    { id: 1, image: "/public/11.png" },
-    { id: 2, image: "/public/12.png" },
-    { id: 3, image: "/public/13.png" },
-    { id: 4, image: "/public/14.png" },
-    { id: 5, image: "/public/15.png" },
-    { id: 6, image: "/public/16.png" },
-    { id: 7, image: "/public/17.png" },
-    { id: 8, image: "/public/18.png" },
-    { id: 9, image: "/public/19.png" },
-    { id: 10, image: "/public/20.png" },
+    { id: 1, image: "/11.png" },
+    { id: 2, image: "/12.png" },
+    { id: 3, image: "/13.png" },
+    { id: 4, image: "/14.png" },
+    { id: 5, image: "/15.png" },
+    { id: 6, image: "/16.png" },
+    { id: 7, image: "/17.png" },
+    { id: 8, image: "/18.png" },
+    { id: 9, image: "/19.png" },
+    { id: 10, image: "/20.png" },
   ];
 
 
