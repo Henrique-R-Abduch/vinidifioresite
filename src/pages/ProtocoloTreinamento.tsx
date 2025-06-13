@@ -261,59 +261,70 @@ const ProtocoloTreinamento: React.FC = () => {
 <div className="flex md:flex-row flex-nowrap md:flex-wrap gap-6 overflow-x-auto md:overflow-visible px-4 md:px-0 mb-12 pb-10 hide-scrollbar">
     {[
       {
-        title: "Protocolo Bimestral",
-        subtitle: "Acompanhamento por 60 dias",
-        price: "R$ 639,80 à vista",
-        image: "/lovable-uploads/bimestral2.jpg",
-        benefits: [
-          "Protocolo de treinamento & dietético",
-          "Acompanhamento por 60 dias",
-          "App exclusivo com vídeos",
-          "Suporte com contato para dúvidas"
-        ],
-        ctaText: "Quero esse plano",
-        badge: {
-          text: "MELHOR CUSTO-BENEFÍCIO",
-          type: "economic"
-        }
-      },
-      {
-        title: "Protocolo Semestral",
-        subtitle: "Acompanhamento por 180 dias",
-        price: "R$ 1.596,00 à vista",
-        installments: "6x R$ 305,90 no cartão",
-        image: "/lovable-uploads/semestral2.jpg",
-        benefits: [
-          "3 protocolos de treinamento & dietético completos",
-          "Acompanhamento total por 180 dias",
-          "App exclusivo com vídeos",
-          "Suporte com contato para dúvidas"
-        ],
-        ctaText: "Começar agora",
-        badge: {
-          text: "MAIS ESCOLHIDO",
-          type: "popular"
-        },
-        isPopular: true
-      },
-      {
-        title: "Protocolo Anual",
-        subtitle: "Acompanhamento por 365 dias",
-        price: "R$ 2.876,00 à vista",
-        installments: "12x R$ 287,60 no cartão",
-        image: "/lovable-uploads/anual2.jpg",
-        benefits: [
-          "6 protocolos de treinamento & dietético completos",
-          "Acompanhamento total por 365 dias",
-          "App exclusivo com vídeos",
-          "Suporte com contato para dúvidas"
-        ],
-        ctaText: "Garantir minha vaga",
-        badge: {
-          text: "ACESSO MAIS COMPLETO",
-          type: "premium"
-        }
-      }
+  title: "Protocolo Trimestral",
+  subtitle: "Acompanhamento e suporte por 90 dias",
+  price: "R$ 732,00 à vista",
+  installments: "3x R$ 244,00 no cartão",
+  image: "/lovable-uploads/trimestral.jpg", // ajuste o nome se necessário
+  benefits: [
+    "App com vídeos exclusivos de TODOS exercícios", // enfatizado
+    "Protocolo totalmente personalizado",
+    "Análise dos seus pontos fracos e fortes",
+    "Análise de desvios posturais",
+    "Feedbacks semanais ou quinzenais para ajustes", // enfatizado
+    "Suporte para dúvidas com o SEU treinador", // enfatizado
+    "Liberação de acesso ao APP"
+  ],
+  ctaText: "Quero esse plano",
+  badge: {
+    text: "IDEAL PARA RESULTADOS RÁPIDOS",
+    type: "highlight"
+  }
+},
+{
+  title: "Protocolo Semestral",
+  subtitle: "Acompanhamento e suporte por 180 dias",
+  price: "R$ 1.206,00 à vista",
+  installments: "6x R$ 201,00 no cartão",
+  image: "/lovable-uploads/semestral2.jpg",
+  benefits: [
+    "App com vídeos exclusivos de TODOS exercícios",
+    "3 protocolos totalmente personalizados",
+    "Análise contínua da sua evolução física",
+    "Ajustes de treino e dieta ao longo dos meses",
+    "Feedbacks frequentes e suporte próximo",
+    "Acesso direto ao treinador por mais tempo",
+    "Liberação total do APP durante os 6 meses"
+  ],
+  ctaText: "Começar agora",
+  badge: {
+    text: "MAIS ESCOLHIDO",
+    type: "popular"
+  },
+  isPopular: true
+},
+{
+  title: "Protocolo Anual",
+  subtitle: "Acompanhamento e suporte por 365 dias",
+  price: "R$ 2.148,00 à vista",
+  installments: "12x R$ 179,00 no cartão",
+  image: "/lovable-uploads/anual2.jpg",
+  benefits: [
+    "App com vídeos exclusivos de TODOS exercícios",
+    "6 protocolos totalmente personalizados ao longo do ano",
+    "Análise profunda de desempenho e postural",
+    "Reavaliações constantes e upgrades de treino",
+    "Suporte contínuo com prioridade máxima",
+    "Contato direto com o treinador durante 12 meses",
+    "Tudo isso com acesso completo ao APP por 1 ano"
+  ],
+  ctaText: "Garantir minha vaga",
+  badge: {
+    text: "ACESSO MAIS COMPLETO",
+    type: "premium"
+  }
+}
+
     ].map((plan, index) => (
       <div
         key={index}
@@ -386,7 +397,7 @@ const ProtocoloTreinamento: React.FC = () => {
         
         
         
-        <WhatsAppButton phoneNumber="5511986440117" />
+        <WhatsAppButton phoneNumber="5511999999999" />
       </div>
       <Footer />
     </div>
