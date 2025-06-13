@@ -28,7 +28,7 @@ const ResultsSection: React.FC = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  const slidesToShow = isMobile ? 1 : 10;
+  const slidesToShow = isMobile ? 1 : 5;
 
   // Autoplay com troca de índice
   useEffect(() => {
