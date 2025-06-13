@@ -75,7 +75,7 @@ const CheckoutPage: React.FC = () => {
 
   <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2 text-center">
     <span>Suporte:</span>
-    <a href="https://wa.me/5500000000000" className="text-vf-orange underline font-medium">
+    <a href="https://wa.me/5511986440117" className="text-vf-orange underline font-medium">
       Fale com nosso time
     </a>
   </div>
