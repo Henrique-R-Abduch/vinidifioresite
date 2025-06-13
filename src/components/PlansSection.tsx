@@ -22,21 +22,20 @@ const plans = [
   },
   */
   {
-    title: 'Protocolo Premium',
-    description: 'Treinamento exclusivo com análise corporal e acesso direto ao Vinicius',
-    // originalPrice: '891',
-    // price: '747',
-    // discount: 16,
-    buttonText: 'Garantir minha vaga',
-    link: '/protocolo-treinamento',
-    features: [
-      'Avaliação do físico (pontos fortes e fracos)',
-      'Protocolo de treino 100% personalizado',
-      'Acesso direto ao treinador',
-      'Ajustes conforme evolução',
-      'Suporte contínuo via WhatsApp',
-    ],
-  },
+  title: 'Protocolo Premium',
+  description: 'Treinamento 100% exclusivo para VOCÊ!',
+  buttonText: 'Garantir minha vaga',
+  link: '/protocolo-treinamento',
+  features: [
+    'Avaliação do físico (pontos fracos e fortes)',
+    'Análise postural',
+    'Feedbacks quinzenais',
+    'Protocolo inteiramente personalizado',
+    'Suporte e acesso facilitado ao treinador',
+    'Vídeos dos exercícios exclusivos → Tudo personalizado',
+  ],
+},
+
   {
     title: 'Protocolo Black',
     description: 'Treinamento + dieta supervisionada por Vinicius e Mayra (nutri)',
