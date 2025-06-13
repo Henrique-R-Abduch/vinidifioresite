@@ -85,7 +85,7 @@ const ThankYouPage: React.FC = () => {
             
             <div className="px-2 mb-6 md:mb-8">
               <a 
-                href="https://wa.me/5511999999999?text=Oi%20Vinicius%2C%20acabei%20de%20adquirir%20o%20Protocolo%20Black%20e%20quero%20começar!" 
+                href="https://wa.me/5511986440117?text=Oi%20Vinicius%2C%20acabei%20de%20adquirir%20o%20Protocolo%20Black%20e%20quero%20começar!" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block w-full"
@@ -140,7 +140,7 @@ const ThankYouPage: React.FC = () => {
       {isMobile && (
         <div className="fixed bottom-0 left-0 w-full bg-gradient-to-t from-black via-black/95 to-transparent pt-6 pb-4 px-4 flex justify-center z-50">
           <a 
-            href="https://wa.me/5511999999999?text=Oi%20Vinicius%2C%20acabei%20de%20adquirir%20o%20Protocolo%20Black%20e%20quero%20começar!" 
+            href="https://wa.me/5511986440117?text=Oi%20Vinicius%2C%20acabei%20de%20adquirir%20o%20Protocolo%20Black%20e%20quero%20começar!" 
             target="_blank" 
             rel="noopener noreferrer"
             className="w-full max-w-sm"
