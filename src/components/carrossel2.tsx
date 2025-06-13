@@ -104,9 +104,10 @@ const ResultsSection: React.FC = () => {
         <div className="flex justify-center px-4 mt-10">
           <Button
             onClick={() => {
-              const target = document.getElementById('planos');
-              if (target) target.scrollIntoView({ behavior: 'smooth' });
-            }}
+  const target = document.getElementById('choose-plan-section');
+  if (target) target.scrollIntoView({ behavior: 'smooth' });
+}}
+
             className="w-auto text-lg px-6 py-6
                        md:text-3xl md:px-12 md:py-8
                        lg:text-4xl lg:px-20 lg:py-10
